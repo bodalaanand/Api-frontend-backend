@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* simple animation utilities */
+@layer utilities {
+  .animate-slideInLeft {
+    animation: slideInLeft 0.6s ease-out both;
+  }
+  .animate-slideInRight {
+    animation: slideInRight 0.6s ease-out both;
+  }
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out both;
+  }
+  .animate-fadeInUpDelay {
+    animation: fadeInUp 0.85s ease-out both;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* optional: hide scroll bar for horizontal nav on mobile */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

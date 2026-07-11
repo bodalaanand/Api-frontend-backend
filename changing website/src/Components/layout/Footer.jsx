@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin, ChevronUp, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/screenshot 2025-07-14 152555.png'; // Replace with your actual logo path
+import Logo from '../../assets/Screenshot 2025-07-14 152555.png';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -16,13 +16,8 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-6 lg:col-span-1">
             <div className="flex items-center gap-3">
-              {/* Logo Implementation */}
-              <div className="h-10 w-auto">
-                {/* <img src={Logo} alt="API Logo" className="h-full object-contain" /> */}
-                {/* Fallback Placeholder Logo */}
-                <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-black text-xl">A</span>
-                </div>
+              <div className="h-10 w-auto flex items-center">
+                <img src={Logo} alt="API Logo" className="h-10 w-auto object-contain" />
               </div>
               <span className="text-2xl font-bold text-white tracking-tight">API <span className="text-blue-500">Technologies</span></span>
             </div>
@@ -33,6 +28,7 @@ const Footer = () => {
             {/* Social Media Icons */}
             <div className="flex space-x-4">
               <a href="" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-blue-600 hover:border-blue-600 transition-all"><Facebook size={18}/></a>
+              <a href="" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-sky-500 hover:border-sky-500 transition-all"><Twitter size={18}/></a>
               <a href="" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-blue-400 hover:border-blue-400 transition-all"><Youtube size={18}/></a>
               <a href="" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-blue-700 hover:border-blue-700 transition-all"><Linkedin size={18}/></a>
               <a href="" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white hover:bg-pink-600 hover:border-pink-600 transition-all"><Instagram size={18}/></a>

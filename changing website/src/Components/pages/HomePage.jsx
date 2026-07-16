@@ -110,7 +110,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-20">
           <div className="max-w-2xl">
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} className="flex items-center gap-3 text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-6">
-              <span className="w-10 h-[2px] bg-blue-500 inline-block"></span> Technology Related Consultancy
+              <span className="w-10 h-[2px] bg-blue-500 inline-block"></span> Technology Related
             </motion.div>
             <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-4xl md:text-7xl font-extrabold text-white leading-[1.1] mb-6">
               We transform ideas <br /> <span className="text-white/80">into technology</span>

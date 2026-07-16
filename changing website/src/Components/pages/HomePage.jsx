@@ -107,7 +107,7 @@ const HomePage = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0d14] via-[#0a0d14]/70 to-transparent z-10" />
           <img src="images/image12.jpg" alt="Hero" className="w-full h-full object-cover" />
         </div>
-        {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-20">
           <div className="max-w-2xl">
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} className="flex items-center gap-3 text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-6">
               <span className="w-10 h-[2px] bg-blue-500 inline-block"></span> Technology Related Consultancy
@@ -119,7 +119,7 @@ const HomePage = () => {
               Read More <MoveRight className="group-hover:translate-x-2 transition-transform" size={20} />
             </button>
           </div>
-        </div> */}
+        </div>
       </section>
 
       {/* 2. OVERLAPPING SERVICE CARDS */}

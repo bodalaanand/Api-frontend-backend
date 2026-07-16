@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom'; // Added routing imports
-import Logo from '../../assets/Screenshot 2025-07-14 152555.png'; 
+import Logo from '../../assets/react.svg'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -105,19 +105,19 @@ const HomePage = () => {
         <motion.div style={{ x: sx, y: sy }} className="fixed top-0 left-0 w-12 h-12 border-2 border-blue-500/40 pointer-events-none z-50 hidden lg:block" />
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0d14] via-[#0a0d14]/70 to-transparent z-10" />
-          <img src="images/image12.jpg" alt="Hero" className="w-full h-full object-cover" />
+          <img src="images/Renu 1.jpeg" alt="Hero" className="w-full h-full object-cover" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-20">
           <div className="max-w-2xl">
             <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} className="flex items-center gap-3 text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-6">
-              <span className="w-10 h-[2px] bg-blue-500 inline-block"></span> Technology Related
+              <span className="w-10 h-[2px] bg-blue-500 inline-block"></span> Celebrate Every Moment
             </motion.div>
             <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-4xl md:text-7xl font-extrabold text-white leading-[1.1] mb-6">
-              We transform ideas <br /> <span className="text-white/80">into technology</span>
+              Make Every Birthday <br /> <span className="text-white/80">Unforgettable</span>
             </motion.h1>
-            <button className="group bg-blue-900 hover:bg-blue-700 text-white px-10 py-4 rounded-md font-bold transition-all flex items-center gap-3">
-              Read More <MoveRight className="group-hover:translate-x-2 transition-transform" size={20} />
-            </button>
+              {/* <button className="group bg-blue-900 hover:bg-blue-700 text-white px-10 py-4 rounded-md font-bold transition-all flex items-center gap-3">
+                Read More <MoveRight className="group-hover:translate-x-2 transition-transform" size={20} />
+              </button> */}
           </div>
         </div>
       </section>

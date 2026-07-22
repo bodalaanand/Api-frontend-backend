@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin, ChevronUp, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/Screenshot 2025-07-14 152555.png';
+import Logo from '../../assets/Renu.png';
 
 const Footer = () => {
   const scrollToTop = () => {

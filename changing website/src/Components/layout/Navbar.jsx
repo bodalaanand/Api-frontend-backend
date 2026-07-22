@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom'; // Added routing imports
-import Logo from '../../assets/react.svg'; 
+import Logo from '../../assets/Renu.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
             <img 
               src={Logo} 
               alt="Api Technologies" 
-              className="h-12 w-auto object-contain" 
+              className="h-20 w-auto object-contain" 
             />
           </div>
 

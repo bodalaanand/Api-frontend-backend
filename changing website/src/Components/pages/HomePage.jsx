@@ -113,7 +113,7 @@ const HomePage = () => {
               <span className="w-10 h-[2px] bg-blue-500 inline-block"></span> Celebrate Every Moment
             </motion.div>
             <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="text-4xl md:text-7xl font-extrabold text-white leading-[1.1] mb-6">
-              Make Every Birthday <br /> <span className="text-white/80">Unforgettable</span>
+              Make Every Birthday <br /> <span className="text-white/80">Unforgettable moment</span>
             </motion.h1>
               {/* <button className="group bg-blue-900 hover:bg-blue-700 text-white px-10 py-4 rounded-md font-bold transition-all flex items-center gap-3">
                 Read More <MoveRight className="group-hover:translate-x-2 transition-transform" size={20} />

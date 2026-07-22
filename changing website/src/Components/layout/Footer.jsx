@@ -19,10 +19,10 @@ const Footer = () => {
               <div className="h-10 w-auto flex items-center">
                 <img src={Logo} alt="API Logo" className="h-10 w-auto object-contain" />
               </div>
-              <span className="text-2xl font-bold text-white tracking-tight">API <span className="text-blue-500">Technologies</span></span>
+              <span className="text-2xl font-bold text-white tracking-tight">Ren<span className="text-blue-500">uka</span></span>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
-              Empowering businesses through cutting-edge technology solutions, from custom software development to innovation launchpads like Stack Hackathon.
+              We help you create personalized birthday wishes beautiful greeting pages memorable photo galleries heartfelt messages and joyful surprises.
             </p>
 
             {/* Social Media Icons */}
@@ -54,14 +54,14 @@ const Footer = () => {
                 <div className="mt-1 bg-blue-500/10 p-2 rounded-lg"><Phone size={18} className="text-blue-500" /></div>
                 <div className="flex flex-col">
                   <span className="text-gray-500 text-[10px] font-bold uppercase tracking-wider">Phone Number</span>
-                  <a href="tel:+919123456780" className="text-white hover:text-blue-400 transition-colors">+91 91234 56780</a>
+                  <a href="tel:+919123456780" className="text-white hover:text-blue-400 transition-colors">+91 8341195585</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
                 <div className="mt-1 bg-blue-500/10 p-2 rounded-lg"><Mail size={18} className="text-blue-500" /></div>
                 <div className="flex flex-col">
                   <span className="text-gray-500 text-[10px] font-bold uppercase tracking-wider">Email Address</span>
-                  <a href="mailto:info@apitechnologies.com" className="text-white hover:text-blue-400 transition-colors">info@apitechnologies.com</a>
+                  <a href="mailto:info@apitechnologies.com" className="text-white hover:text-blue-400 transition-colors">info@koyyanarenuka.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -71,7 +71,7 @@ const Footer = () => {
 
   <div className="flex flex-col">
     <span className="text-gray-500 text-[10px] font-bold uppercase tracking-wider">
-      Corporate Office
+      Home Town
     </span>
 
     <a
@@ -80,7 +80,7 @@ const Footer = () => {
       rel="noopener noreferrer"
       className="leading-relaxed hover:text-blue-600 transition-colors"
     >
-      Redmond, Washington, U.S.
+      Vizag, India
     </a>
   </div>
 </li>
@@ -92,7 +92,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs font-medium text-gray-500 tracking-wide">
-            &copy; 2026 @apitechnologies. All Rights Reserved.
+            &copy; 2026 @koyyanarenuka. All Rights Reserved.
           </p>
           <button 
             onClick={scrollToTop}

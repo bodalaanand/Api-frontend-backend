@@ -18,7 +18,7 @@ const Industries = () => {
     {
       title: "Custom Software",
       category: "Service",
-      image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800",
+      image: "images/Renu 2.jpeg",  //https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800
       icon: <Code />,
       desc: "Enterprise-grade applications built for long-term scalability."
     },

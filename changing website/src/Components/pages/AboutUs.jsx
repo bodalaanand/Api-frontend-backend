@@ -53,7 +53,7 @@ const AboutUs = () => {
       <section className="relative h-[60vh] flex items-center justify-center bg-[#0a0d14]">
         <div className="absolute inset-0 opacity-40">
           <img 
-            src="https://img.freepik.com/free-photo/happy-male-entrepreneur-using-desktop-pc-while-working-office-there-are-people-background_637285-1037.jpg?semt=ais_hybrid&w=740&q=80" 
+            src="images/Renu 2.jpeg"  //https://img.freepik.com/free-photo/happy-male-entrepreneur-using-desktop-pc-while-working-office-there-are-people-background_637285-1037.jpg?semt=ais_hybrid&w=740&q=80 
             alt="API Team" 
             className="w-full h-full object-cover grayscale"
           />
@@ -99,7 +99,7 @@ const AboutUs = () => {
             className="relative"
           >
             <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl border-8 border-gray-50">
-               <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000" alt="Strategy" className="w-full h-full object-cover" />
+               <img src="images/Renu 1.jpeg" alt="Strategy" className="w-full h-full object-cover" />  {/*https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000 */}
             </div>
             <div className="absolute -bottom-10 -left-10 bg-[#1a237e] p-8 rounded-2xl text-white hidden md:block shadow-xl">
               <div className="text-4xl font-black mb-1">2025</div>

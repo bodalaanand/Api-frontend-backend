@@ -21,12 +21,12 @@ const ServicesSection = () => {
 
   //https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=600 (image12.jpg replace) - custom software development
   const services = [
-    { title: "Custom Software Development", icon: <Code />, id: "01", img: "images/image12.jpg" },
-    { title: "Web & Mobile Apps", icon: <Laptop />, id: "02", img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=600" },
-    { title: "Digital Marketing", icon: <Megaphone />, id: "03", img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600" },
-    { title: "Staffing Solutions", icon: <Users />, id: "04", img: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=600" },
-    { title: "Product Engineering", icon: <Cpu />, id: "05", img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600" },
-    { title: "Quality Assurance", icon: <ShieldCheck />, id: "06", img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600" },
+    { title: "Koyyana Renuka", icon: <Code />, id: "01", img: "images/Renu 2.jpeg" },
+    { title: "Mom's Special Day", icon: <Code />, id: "02", img: "images/Renu 13.jpeg" },
+    { title: "Birthday Girl 🎂", icon: <Code/>, id: "03", img: "images/Renu 3.jpeg" },
+    { title: "Moment of the Day", icon: <Code />, id: "04", img: "images/Renu 16.jpeg" },
+    { title: "Pricesssssss", icon: <Code />, id: "05", img: "images/Renu 4.jpeg" },
+    { title: "Annayyaaaaaaaa", icon: <Code/>, id: "06", img: "images/Renu 25.jpeg" },
   ];
 
   return (
@@ -54,16 +54,16 @@ const ServicesSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-[#1a237e] font-black uppercase tracking-[0.4em] text-xs mb-4"
           >
-            Services & Expertise
+            HER SPECIAL MOMENTS
           </motion.p>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-5xl font-extrabold text-[#0a0d14] leading-tight"
           >
-            We provide truly <br />
+            Creating Beautiful Memories <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1a237e] to-blue-500">
-              prominent IT solutions.
+              for the Birthday Girl.
             </span>
           </motion.h2>
         </div>
@@ -83,7 +83,7 @@ const ServicesSection = () => {
         </div>
 
         {/* INDUSTRIES SUB-SECTION */}
-        <motion.div 
+        {/* <motion.div 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           className="mt-12 flex flex-wrap items-center gap-8 border-t border-gray-100 pt-12"
@@ -100,7 +100,7 @@ const ServicesSection = () => {
               <span className="font-semibold text-sm">{item.label}</span>
             </div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
@@ -142,11 +142,11 @@ const ServiceCard = ({ service, index }) => {
         </h3>
         
         <p className="text-gray-200 text-sm leading-relaxed mb-6 line-clamp-2 opacity-80 group-hover:opacity-100">
-          Accelerate innovation with world-class tech teams. We'll match you to an entire remote team.
+          Celebrate a day filled with love, laughter, and unforgettable memories.May your year ahead sparkle with happiness and success.
         </p>
 
         <button className="flex items-center gap-3 text-white font-bold text-sm group/btn">
-          EXPLORE SOLUTION 
+          CELEBRATE TODAY 
           <span className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-[#1a237e] transition-all">
             <ArrowRight size={14} />
           </span>

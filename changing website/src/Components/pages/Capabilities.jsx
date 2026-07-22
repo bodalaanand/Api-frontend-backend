@@ -19,43 +19,43 @@ const Capabilities = () => {
       title: "Enterprise Software",
       desc: "Custom development and system integration designed for complex, scalable business ecosystems.",
       icon: <Code2 className="w-8 h-8" />,
-      image: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=800"
+      image: "images/Renu .jpeg"  //https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=800
     },
     {
       title: "Web & Mobile Apps",
       desc: "High-performance cross-platform applications built with modern frameworks like React and Flutter.",
       icon: <Smartphone className="w-8 h-8" />,
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=800"
+      image: "images/Renu .jpeg"
     },
     {
       title: "ERP & CRM Solutions",
       desc: "Streamlining business process automation to enhance operational efficiency and data transparency.",
       icon: <Database className="w-8 h-8" />,
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800"
+      image: "images/Renu .jpeg"
     },
     {
       title: "Cloud & Managed Services",
       desc: "Cloud-native architecture, seamless migration, and 24/7 managed infrastructure support.",
       icon: <Cloud className="w-8 h-8" />, // Using Cloud instead of CloudZap
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800"
+      image: "images/Renu .jpeg"
     },
     {
       title: "Digital Marketing & SEO",
       desc: "Data-driven strategies and search engine optimization to scale your global digital footprint.",
       icon: <Globe className="w-8 h-8" />,
-      image: "https://sagartech.co.in/blogs/wp-content/uploads/2024/10/Digital-Marketing-Strategy-Feature-image-min.webp"
+      image: "images/Renu .jpeg"
     },
     {
       title: "UI/UX Engineering",
       desc: "Human-centric product design focusing on intuitive interfaces and engaging user journeys.",
       icon: <Palette className="w-8 h-8" />,
-      image: "https://tenacioustechies.in/wp-content/uploads/2022/08/different-between-ux-and-ui.jpg"
+      image: "images/Renu 3.jpeg"   //https://tenacioustechies.in/wp-content/uploads/2022/08/different-between-ux-and-ui.jpg
     },
     {
       title: "App Optimization",
       desc: "Continuous maintenance, security patches, and performance tuning for legacy systems.",
       icon: <Settings2 className="w-8 h-8" />,
-      image: "https://www.pagetraffic.in/wp-content/uploads/2022/05/app-store-optimization-2.png"
+      image: "images/Renu 2.jpeg"   //https://www.pagetraffic.in/wp-content/uploads/2022/05/app-store-optimization-2.png
     }
   ];
 
@@ -69,11 +69,11 @@ const Capabilities = () => {
       initial={{ scale: 1.2, opacity: 0 }}
       animate={{ scale: 1, opacity: 0.4 }} // Lower opacity to keep text readable
       transition={{ duration: 1.5 }}
-      src="images/image12.jpg" // https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000
+      src="images/Renu 28.jpeg" // https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000
       alt="Digital Connectivity"
       className="w-full h-full object-cover"
     />
-    {/* Gradient Overlay to ensure text contrast on the left side */}
+    {/* Gradien t Overlay to ensure text contrast on the left side */}
     <div className="absolute inset-0 bg-gradient-to-r from-[#0a0d14] via-[#0a0d14]/80 to-transparent" />
   </div>
 
@@ -151,7 +151,7 @@ const Capabilities = () => {
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1000" 
+              src="images/Renu 3.jpeg"  //https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1000 
               className="rounded-[2rem] shadow-2xl" 
               alt="Our Approach"
             />

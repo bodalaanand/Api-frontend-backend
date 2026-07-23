@@ -104,7 +104,7 @@ const HomePage = () => {
         <motion.div style={{ x: sx, y: sy }} className="fixed top-0 left-0 w-12 h-12 border-2 border-blue-500/40 pointer-events-none z-50 hidden lg:block" />
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0d14] via-[#0a0d14]/70 to-transparent z-10" />
-          <img src="images/Renu 33.jpeg" alt="Hero" className="w-full h-full object-cover" />
+          <img src="images/Renu 2.jpeg" alt="Hero" className="w-full h-full object-cover" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-20">
           <div className="max-w-2xl">

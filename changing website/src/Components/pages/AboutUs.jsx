@@ -25,25 +25,20 @@ const AboutUs = () => {
 
   const milestones = [
     {
-      date: "June 2024",
-      title: "Foundation",
+      date: "July 2007",
+      title: "First Cry 👣",
       image: "images/image12.jpg",
-      desc: "Founded as Software Private Limited with a vision for reliable, high-quality software development."
+      desc:"The First Cry, A New Beginning on Earth."
     },
     {
-      date: "2024–2025",
-      title: "Expansion",
-      desc: "Strengthened engineering capabilities and expanded into enterprise software and digital transformation."
+      date: "July 2008",
+      title: "First Birthday Celebration 🎉",
+      desc: "A First Birthday, A Lifetime of Beautiful Memories."
     },
     {
-      date: "27 Dec 2025",
-      title: "API Launch",
-      desc: "Official rebranding to API Technologies, marking our transition to a future-ready enterprise partner."
-    },
-    {
-      date: "Present",
-      title: "Global Partner",
-      desc: "Operating as a trusted transformation partner delivering scalable, performance-driven solutions."
+      date: "Present July 2027",
+      title: "Birthday Celebrations ✨",
+      desc: "Celebrating Today, Creating Memories for Tomorrow."
     }
   ];
 
@@ -69,9 +64,9 @@ const AboutUs = () => {
             About Us
           </motion.h1>
           <div className="flex items-center justify-center gap-2 text-blue-400 font-bold uppercase tracking-widest text-sm">
-            <span>Home</span>
+            <span>Renuka's</span>
             <ArrowRight size={14} />
-            <span className="text-white">Our Identity</span>
+            <span className="text-white">Identity</span>
           </div>
         </div>
       </section>
@@ -80,16 +75,16 @@ const AboutUs = () => {
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div {...fadeIn}>
-            <span className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4 block">Our Evolution</span>
+            <span className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4 block">Renuka's Identity</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              From Software to <br />
-              <span className="text-[#1a237e]">API Technologies</span>
+              Celebrating the Beautiful  <br />
+              <span className="text-[#1a237e]">Journey of Renuka</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              API Technologies traces its origins to Software Private Limited, established in August 2024. As the organization matured, a strategic decision was taken to rebrand to reflect our enterprise-focused direction.
+             Today is all about celebrating Renuka a wonderful person whose kindness,beautiful smile, and caring heart make every moment brighter. She brings happiness to everyone around her and inspires others with her positivity,strength,and compassion.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Launched officially on 27 December 2025, API Technologies represents a transition to a modern, future-ready technology company delivering scalable, secure, and enterprise-grade digital solutions.
+              Happy Birthday, Renuka!🎈 Wishing you a lifetime of happiness, laughter,peace, and countless beautiful moments with your family and friends.
             </p>
           </motion.div>
           
@@ -99,12 +94,12 @@ const AboutUs = () => {
             className="relative"
           >
             <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl border-8 border-gray-50">
-               <img src="images/Renu 1.jpeg" alt="Strategy" className="w-full h-full object-cover" />  {/*https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000 */}
+               <img src="images/Renu 7.jpeg" alt="Strategy" className="w-full h-full object-cover" />  {/*https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000 */}
             </div>
-            <div className="absolute -bottom-10 -left-10 bg-[#1a237e] p-8 rounded-2xl text-white hidden md:block shadow-xl">
+            {/* <div className="absolute -bottom-10 -left-10 bg-[#1a237e] p-8 rounded-2xl text-white hidden md:block shadow-xl">
               <div className="text-4xl font-black mb-1">2025</div>
               <div className="text-xs uppercase tracking-widest opacity-80 font-bold">New Era Launched</div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </section>
@@ -150,11 +145,11 @@ const AboutUs = () => {
       {/* 4. WHY API (Core Values) */}
       <section className="py-24 bg-[#0a0d14] text-white">
         <div className="max-w-7xl mx-auto px-4 text-center mb-16">
-          <span className="text-blue-400 font-bold uppercase text-sm tracking-widest">The API Edge</span>
-          <h2 className="text-4xl font-bold mt-4">Why Partner With Us</h2>
+          <span className="text-blue-400 font-bold uppercase text-sm tracking-widest">The RENUKA Celebrations 🎂</span>
+          <h2 className="text-4xl font-bold mt-4">Celebrating the Present, Cherishing Forever.</h2>
         </div>
         
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             { icon: <ShieldCheck />, title: "Enterprise Delivery", text: "Robust IT delivery and high-level project governance." },
             { icon: <Award />, title: "Best Practices", text: "Global IT standards, security, and strict compliance." },
@@ -173,7 +168,7 @@ const AboutUs = () => {
               <p className="text-gray-400 text-sm leading-relaxed">{card.text}</p>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </section>
     </div>
   );

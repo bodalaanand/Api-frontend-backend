@@ -16,60 +16,60 @@ import {
 const Industries = () => {
   const allServices = [
     {
-      title: "Custom Software",
-      category: "Service",
-      image: "images/Renu 2.jpeg",  //https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800
+      title: "Me",
+      category: "Renuka",
+      image: "images/Renu 3.jpeg",  //https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800
       icon: <Code />,
-      desc: "Enterprise-grade applications built for long-term scalability."
+      // desc: "Enterprise-grade applications built for long-term scalability."
     },
     {
-      title: "Web & Mobile",
-      category: "Service",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800",
-      icon: <Smartphone />,
-      desc: "High-performance apps for Android, iOS, and Web platforms."
+      title: "Mom's",
+      category: "Renuka",
+      image: "images/Renu 13.jpeg",
+      // icon: <Smartphone />,
+      // desc: "High-performance apps for Android, iOS, and Web platforms."
     },
     {
-      title: "Digital Marketing",
-      category: "Service",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800",
-      icon: <Search />,
-      desc: "SEO and performance marketing to scale your digital presence."
-    },
-    {
-      title: "Staffing Solutions",
-      category: "Service",
-      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800",
-      icon: <Users />,
-      desc: "Connecting organizations with top-tier technology talent."
-    },
-    {
-      title: "Education (EdTech)",
-      category: "Industry",
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=800",
+      title: "Dad's",
+      category: "Renuka",
+      image: "images/Renu 15.jpeg",
       icon: <GraduationCap />,
-      desc: "Digital learning platforms and ERPs for modern institutions."
+      // desc: "SEO and performance marketing to scale your digital presence."
     },
     {
-      title: "Retail & E-Commerce",
-      category: "Industry",
-      image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800",
-      icon: <ShoppingBag />,
-      desc: "End-to-end commerce platforms with payment integrations."
+      title: "Koyyana",
+      category: "Renuka",
+      image: "images/Renu 37.jpeg",
+      // icon: <Users />,
+      // desc: "Connecting organizations with top-tier technology talent."
     },
     {
-      title: "Real Estate",
-      category: "Industry",
-      image: "https://images.unsplash.com/photo-1582408921715-18e7806365c1?q=80&w=800",
-      icon: <Building2 />,
-      desc: "Property management systems and lead analytics tools."
+      title: "Myself",
+      category: "Renuka",
+      image: "images/Renu 19.jpeg",
+      icon: <GraduationCap />,
+      // desc: "Digital learning platforms and ERPs for modern institutions."
     },
     {
-      title: "Public Sector",
-      category: "Industry",
-      image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=800",
-      icon: <Landmark />,
-      desc: "Secure e-governance solutions for government departments."
+      title: "Dad's",
+      // category: "Industry",
+      image: "images/Renu 16.jpeg",
+      // icon: <ShoppingBag />,
+      // desc: "End-to-end commerce platforms with payment integrations."
+    },
+    {
+      title: "Mom's",
+      // category: "Renuka",
+      image: "images/Renu 13.jpeg",
+      icon: <Code />,
+      // desc: "Property management systems and lead analytics tools."
+    },
+    {
+      title: "Renuka",
+      // category: "Industry",
+      image: "images/Renu 22.jpeg",
+      // icon: <Landmark />,
+      // desc: "Secure e-governance solutions for government departments."
     }
   ];
 
@@ -83,15 +83,15 @@ const Industries = () => {
             whileInView={{ opacity: 1 }}
             className="text-blue-500 font-bold tracking-[0.3em] uppercase text-xs"
           >
-            Capabilities & Industries
+            Photo & Memory
           </motion.span>
           <motion.h2 
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold text-white mt-4"
           >
-            Comprehensive Technology <br /> 
-            <span className="text-gray-500">& Business Solutions.</span>
+             <br /> 
+            <span className="text-gray-500">Happy Birthday Koyyana 🎉</span>
           </motion.h2>
         </div>
 
@@ -164,12 +164,12 @@ const Industries = () => {
               <ShieldCheck className="text-white w-10 h-10" />
             </div>
             <div>
-              <h4 className="text-white text-xl font-bold">Trusted Government Partner</h4>
-              <p className="text-blue-200 text-sm">Successfully delivered kiosk-style digital apps for Telangana Agriculture Department.</p>
+              <h4 className="text-white text-xl font-bold">Happiest Birthday Renuka 🎀</h4>
+              <p className="text-blue-200 text-sm">Celebrating another year of amazingness!</p>
             </div>
           </div>
           <button className="bg-white text-[#1a237e] px-8 py-3 rounded-xl font-bold whitespace-nowrap hover:bg-blue-50 transition-colors">
-            View Case Study
+            Celebrate 🌟
           </button>
         </motion.div>
       </div>

@@ -26,10 +26,10 @@ const HomePage = () => {
 //https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=400  -- title: It consultancy image
 
   const services = [
-    { title: "Personalized Birthday Wishes", desc: "Create beautiful birthday messages with custom names, heartfelt quotes, photos, videos, and unique themes.", img: "/images/Renu 6.jpeg"},
+    { title: "Personalized Birthday Wishes", desc: "Create beautiful birthday messages with custom names, heartfelt quotes, photos, videos, and unique themes.", img: "/images/Renu 7.jpeg"},
     { title: "Birthday Invitation Cards", desc: "Design elegant digital invitations with event details, RSVP options, location maps, and stunning templates for every birthday celebration.", img: "/images/Renu 5.jpeg" },
-    { title: "Photo & Memory Gallery", desc: "Collect cherished memories by uploading photos, videos, and special moments into a beautiful gallery that lasts forever.", img: "/images/Renu 8.jpeg" },
-    { title: "Celebrate with Music & Effects", desc: "Make every birthday magical with background music, animated balloons, confetti, fireworks, countdowns, and interactive surprises.", img: "/images/Renu 14.jpeg"}
+    { title: "Photo & Memory Gallery", desc: "Collect cherished memories by uploading photos, videos, and special moments into a beautiful gallery that lasts forever.", img: "/images/Renu 11.jpeg" },
+    { title: "Celebrate with Music & Effects", desc: "Make every birthday magical with background music, animated balloons, confetti, fireworks, countdowns, and interactive surprises.", img: "/images/Renu 3.jpeg"}
   ]
   const points = [
     {
@@ -93,7 +93,7 @@ const HomePage = () => {
       // icon: <ShoppingBag size={24} />,
       desc: "The most meaningful birthday moments are spent with family and loved ones,creating memories that will be treasured for a lifetime.",
       stats: "View Memories",
-      img: "images/Renu 34.jpeg"  //https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=500
+      img: "images/Renu 11.jpeg"  //https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=500
     }
   ];
 

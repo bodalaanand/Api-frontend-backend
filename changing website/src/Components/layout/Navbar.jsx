@@ -10,11 +10,11 @@ const Navbar = () => {
   const navLinks = [
     // { name: 'Home', path: '/', hasDropdown: false }, // Added Home
     { name: 'Home', path: '/home', hasDropdown: true,   dropdown: [
-      { name: 'Case Studies', path: '/casestudies' },
+      { name: 'My Moments', path: '/casestudies' },
     ], },
-    { name: 'Capabilities', path: '/capabilities', hasDropdown: false },
-    { name: 'Industries', path: '/industries', hasDropdown: false },
-    { name: 'Events', path: '/events', hasDropdown: true, dropdown: [
+    { name: 'Birthday Wishes', path: '/capabilities', hasDropdown: false },
+    { name: 'Memories', path: '/industries', hasDropdown: false },
+    { name: 'Renuka', path: '/events', hasDropdown: true, dropdown: [
       { name: 'About' , path: '/about' },
     ], },
   

@@ -9,12 +9,12 @@ const EventsGallery = () => {
   const events = [
     {
       id: 'stack-hackathon-2026',
-      title: "STACK HACKATHON 2026",
-      subtitle: "Where Ideas Turn Into Startups",
-      date: "11-04-2026 to 23-04-2026",
-      location: "API Technologies HQ",
-      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200", // Representative AI/Tech image
-      regClose: "Registration ends 23-04-2026"
+      title: "KOYYANA RENUKA",
+      subtitle: "Celebrate Dreams & New Beginnings",
+      date: "July 17",
+      location: "Vizag",
+      image: "images/Renu 29.jpeg", // Representative AI/Tech image
+      regClose: "End of the Day"
     }
     // Add future events here
   ];
@@ -23,7 +23,7 @@ const EventsGallery = () => {
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Upcoming Events</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Celebration of the Day</h2>
           <p className="text-gray-600 mt-4">Join us in shaping the future of technology and entrepreneurship.</p>
         </div>
 
@@ -43,7 +43,7 @@ const EventsGallery = () => {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent flex flex-col justify-center p-12 text-white">
-                  <span className="bg-blue-600 w-fit px-4 py-1 rounded-full text-xs font-bold uppercase mb-4">Featured Event</span>
+                  <span className="bg-blue-600 w-fit px-4 py-1 rounded-full text-xs font-bold uppercase mb-4">Today Celebrations</span>
                   <h3 className="text-3xl md:text-5xl font-black mb-2">{event.title}</h3>
                   <p className="text-xl text-blue-300 font-medium italic">"{event.subtitle}"</p>
                 </div>
@@ -66,9 +66,9 @@ const EventsGallery = () => {
                   </div>
                 </div>
                 
-                <button className="w-full bg-[#0b0e36] text-white py-4 rounded-2xl font-bold flex items-center justify-center gap-2 group-hover:bg-blue-950 transition-colors">
+                {/* <button className="w-full bg-[#0b0e36] text-white py-4 rounded-2xl font-bold flex items-center justify-center gap-2 group-hover:bg-blue-950 transition-colors">
                   Learn More & Apply <ArrowRight size={18} />
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}

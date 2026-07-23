@@ -40,9 +40,9 @@ const Footer = () => {
             <h3 className="text-white text-lg font-bold mb-6">Explore</h3>
             <ul className="space-y-4 text-sm">
               <li><Link to="/about" className="hover:text-blue-400 transition-colors">About Us</Link></li>
-              <li><Link to="/capabilities" className="hover:text-blue-400 transition-colors">Capabilities</Link></li>
-              <li><Link to="/industries" className="hover:text-blue-400 transition-colors">Industries</Link></li>
-              <li><Link to="/events" className="hover:text-blue-400 transition-colors">Events</Link></li>
+              <li><Link to="/capabilities" className="hover:text-blue-400 transition-colors">Birthday Wishes</Link></li>
+              <li><Link to="/industries" className="hover:text-blue-400 transition-colors">Memories</Link></li>
+              <li><Link to="/events" className="hover:text-blue-400 transition-colors">Renuka</Link></li>
             </ul>
           </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
                 <div className="mt-1 bg-blue-500/10 p-2 rounded-lg"><Phone size={18} className="text-blue-500" /></div>
                 <div className="flex flex-col">
                   <span className="text-gray-500 text-[10px] font-bold uppercase tracking-wider">Phone Number</span>
-                  <a href="tel:+919123456780" className="text-white hover:text-blue-400 transition-colors">+91 8341195585</a>
+                  <a href="tel:+919123456780" className="text-white hover:text-blue-400 transition-colors">+91 79956XXXXX</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">

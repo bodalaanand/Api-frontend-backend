@@ -46,7 +46,7 @@ function MyMoments(){
       icon: <ShoppingBag size={24} />,
       desc: "Colorful balloons, laughter, music, and cheerful decorations create the perfect atmosphere for an unforgettable birthday celebration.",
       stats: "Cloud-Ready",
-      img: "images/Renu 1.jpeg",
+      img: "images/Renu-1.jpeg",
       route: "/ecommerceplatforms"
     },
     {
